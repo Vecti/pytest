@@ -1,5 +1,8 @@
 import pytest
 
+
+# so with pytest.raises -> it captures the error but IT PASS THIS TEST?
+# so how wecan know about it even?
 def test_zero_division():
     with pytest.raises(ZeroDivisionError):
         1 / 0
