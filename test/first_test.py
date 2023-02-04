@@ -2,6 +2,9 @@ import pytest
 
 @pytest.mark.onlyme
 class TestClass:
+    """
+    those will be executed via keyword onlyme
+    """
     def func(self, x):
         return x + 1
 
