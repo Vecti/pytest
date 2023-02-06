@@ -22,8 +22,6 @@ def test_if_ten_work(show_dividers_naive):
 
 
 ## 'factory' - this way we can test faster and mmore
-##
-
 
 @pytest.fixture()
 def show_dividers_factory():
